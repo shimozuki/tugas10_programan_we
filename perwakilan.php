@@ -30,7 +30,7 @@
                     $no++;
 				 ?>
 				<tr>
-					<td><? echo $no ?></td>
+					<td><?= $no ?></td>
 					<td><?= $row->id; ?></td>
 					<td><?= $row->nip; ?></td>
 					<td><?= $row->nim; ?></td>
