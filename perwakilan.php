@@ -30,12 +30,12 @@
                     $no++;
 				 ?>
 				<tr>
-					<td><?= $no ?></td>
+					<td><? echo $no ?></td>
 					<td><?= $row->id; ?></td>
-					<td><?= $row->nip; ?></td>
-					<td><?= $row->nim; ?></td>
+					<td><?= $row->nama; ?></td>
+					<td><?= $row->nama; ?></td>
 					<td>
-						<a href="" class="btn btn-danger">Del</a>
+						<a href="index.php?nip=<?= $row->nip; ?>" class="btn btn-danger">Del</a>
 						<a href="" class="btn btn-warning">Edit</a>
 					</td>
 				</tr>
