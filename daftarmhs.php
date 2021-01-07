@@ -28,15 +28,15 @@ require 'config.php';
 <form method="POST" action="">
   <div class="form-group">
     <label for="exampleFormControlInput1">nim</label>
-    <input type="number" class="form-control" id="exampleFormControlInput1" name="nim">
+    <input type="number" class="form-control" id="exampleFormControlInput1" name="nim" required>
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput1">Nama</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" name="nama">
+    <input type="text" class="form-control" id="exampleFormControlInput1" name="nama" required>
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput1">prodi</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" name="prodi">
+    <input type="text" class="form-control" id="exampleFormControlInput1" name="prodi" required>
   </div>
   <div class="form-group">
   <button type="submit" name="submit" class="btn btn-primary">OK</button>
